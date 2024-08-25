@@ -13,3 +13,7 @@ let is_bool = Boolean(bool)
 console.log(typeof is_bool);
 console.log(is_bool);
 
+
+
+console.log(1 + 2 ** 3);
+console.log(+1);
