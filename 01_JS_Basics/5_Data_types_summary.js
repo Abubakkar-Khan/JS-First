@@ -22,3 +22,6 @@ let m_obj = {
 
 m_fun()
 
+let x = 5
+
+console.log(x)
