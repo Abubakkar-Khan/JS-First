@@ -22,6 +22,11 @@ let m_obj = {
 
 m_fun()
 
-let x = 5
+let x = {
+    a : 123
+};
+
+let y = x
+y.a = 2003
 
 console.log(x)
