@@ -22,11 +22,18 @@ let m_obj = {
 
 m_fun()
 
+// Objects are Heap memory
+
 let x = {
     a : 123
 };
 
+
 let y = x
-y.a = 2003
+y.a = 2005
+
+y.a = "Hello"
 
 console.log(x)
+console.log(y)
+
