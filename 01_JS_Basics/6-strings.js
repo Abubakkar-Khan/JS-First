@@ -26,4 +26,7 @@ rep_st = rep_st.replace(" ", "-").replace(".", "-");
 console.log(rep_st.split('-'));
 
 
+
+
+
 console.log(rep_st.includes("khan"));
