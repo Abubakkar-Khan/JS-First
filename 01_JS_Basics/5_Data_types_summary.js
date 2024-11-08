@@ -4,6 +4,8 @@ const NEW_id = Symbol("123")
 // console.log(id)
 // console.log(NEW_id)
 
+
+
 let bit_int = 123123123123123n
 
 const array = ["abc", "123", "qwe"]
@@ -14,6 +16,7 @@ let m_obj = {
     name: "Ali",
     age: 22
 };
+ console.log(m_obj)
  console.log(m_obj)
  
  const m_fun = function () {
