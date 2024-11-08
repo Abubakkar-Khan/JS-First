@@ -9,18 +9,18 @@ const NEW_id = Symbol("123")
 let bit_int = 123123123123123n
 
 const array = ["abc", "123", "qwe"]
-const n_array = [1, 23, 122]
+const n_array = [1, "asd", 122]
 console.log(n_array)
 
 let m_obj = {
     name: "Ali",
     age: 22
 };
- console.log(m_obj)
- console.log(m_obj)
+console.log(m_obj)
+console.log(m_obj.name)
  
- const m_fun = function () {
-     console.log(typeof array)
+const m_fun = function () {
+    console.log(typeof array)
 }
 
 m_fun()
@@ -33,7 +33,7 @@ let x = {
 
 
 let y = x
-y.a = 2005
+
 
 y.a = "Hello"
 
